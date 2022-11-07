@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#Startlayer {
+	color: green;
+	font-family: sans-serif;
+}
+
+#Eduard_Character {
+    color: green;
+    width: 30em;
+    border: 2px solid black ;
+}
