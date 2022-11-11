@@ -1,0 +1,332 @@
+body {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    overflow:auto;
+}
+
+#teamMaedLogo {
+    background-color: rgb(255, 166, 0);
+    border-color:  rgb(255, 166, 0);
+    border-radius: 50%;
+    height: 10vmin;
+    width: 20vmin;
+    align-self: flex-start;
+    margin-top: 10vmin;
+    justify-content: center;
+}
+
+#teamMaedLogoTimeline {
+    background-color: rgb(255, 166, 0);
+    border-color:  rgb(255, 166, 0);
+    border-radius: 50%;
+    height: 10vmin;
+    width: 20vmin;
+    align-self: flex-start;
+    margin-top: 5vmin;
+    margin-left: -170vmin;
+    justify-content: center;
+}
+
+#teamMaedLogo:hover {
+    background-color: rgb(255, 197, 91);
+    border-color: rgb(255, 197, 91);
+    border-radius: 50%;
+}
+
+.characterBox {
+    height: 50vmin;
+    width: 50vmin;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(142, 142, 142); */
+    align-self: center;
+    position: absolute;
+}
+
+#eduardCharacter {
+    height: 40vmin;
+    width: 20vmin;
+    margin-left: -3vmin; 
+    /* background-color:  rgb(94, 94, 94); */
+    align-self: center;
+    cursor: pointer;
+}
+
+#marianCharacter {
+    display: flex;
+    height: 40vmin;
+    width: 20vmin;
+    margin-right: -3vmin;
+    /* background-color: rgb(94, 94, 94); */
+    align-self: center;
+    cursor:pointer;
+    justify-content: center;
+}
+
+.marianOutline {
+    position: absolute;
+    height: 40vmin;
+}
+
+.marianOutline:hover {
+    opacity: 0;
+}
+.marianFarbe {
+    opacity: 0;
+    position: absolute;
+}
+
+.marianFarbe:hover {
+    height: 40vmin;
+    opacity: 100;
+    align-self: center;
+}
+
+.eduardOutline {
+    position: absolute;
+    height: 40vmin;
+}
+
+.eduardOutline:hover {
+    opacity: 0;
+}
+.eduardFarbe {
+    opacity: 0;
+    position: absolute;
+}
+
+.eduardFarbe:hover {
+    height: 40vmin;
+    opacity: 100;
+    align-self: center;
+}
+
+#eduardStats  {
+    border-color: rgb(255, 166, 0);
+    border-radius: 50%;
+    background-color: rgb(255, 166, 0);
+    display: none;
+    height:50vmin;
+    width:50vmin;
+    margin-left:110vmin;
+    position: absolute; 
+    align-self: center;
+} 
+
+#marianStats  {
+    border-color: rgb(255, 166, 0);
+    border-radius: 50%;
+    background-color: rgb(255, 166, 0);
+    display: none;
+    height:50vmin;
+    width:50vmin;
+    margin-right:110vmin;
+    position: absolute; 
+    align-self: center;
+    justify-content: center;
+} 
+
+#showTeamStats {
+    border-color: rgb(255, 166, 0);
+    border-radius: 50%;
+    background-color: rgb(255, 166, 0);
+    display: flex;
+    height: 5vmin;
+    width: 15vmin;
+    margin-top: 90vmin;
+    margin-left: 17vmin;
+    align-self: center;
+    justify-content: center;
+    position: absolute;
+    cursor: pointer;
+}
+
+#showTeamStats:hover {
+    border-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: black;
+}
+
+
+#goToTimeline {
+    border-color: rgb(255, 166, 0);
+    border-radius: 50%;
+    background-color: rgb(255, 166, 0);
+    display:flex;
+    height: 5vmin;
+    width: 15vmin;
+    margin-top: 90vmin;
+    margin-right: 17vmin;
+    align-self: center;
+    justify-content: center;
+    position: absolute;
+}
+
+#goToTimeline:hover {
+    border-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: black;
+}
+
+#teamStats {
+    display:none;
+    height: 5vmin;
+    width: 20vmin;
+    margin-top: 60vmin;
+    align-self: center;
+    position: absolute;
+}
+
+#timeline {
+    display:flex;
+    width: 90vmin;
+    height: 1vmin;
+    background: black;
+    justify-content: space-between;
+    border-radius: 10%;
+    align-self: center;
+    position:absolute;
+}
+
+.dayButton {
+    width: 5vmin;
+    height: 5vmin;
+    border-radius: 50%;
+    background-color: rgb(255, 166, 0);
+    border-radius: 50%;
+    align-self: center;
+    border-style: none;
+    cursor: pointer;
+}
+.dayButton:hover {
+    background-color: white;
+    box-shadow: 3px 3px 0px 0px rgb(255, 166, 0);
+}
+
+#Top {
+    display:flex;
+    width: 95vmin;
+    height: 1vmin;
+    position: absolute;
+    top: 30vmin;
+    align-self: center;
+    /* background-color: brown; */
+}
+
+#Bottom {
+    display:flex;
+    width: 95vmin;
+    height: 1vmin;
+    position: absolute;
+    bottom: 33vmin;
+    align-self: center;
+    /* background-color: aquamarine; */
+}
+
+#mondayBottom {
+    display:flex;
+    display: none;
+    height:15vmin;
+    width:15vmin;
+    margin-bottom: 10vmin;
+    margin-left: -1.5vmin;
+    align-self: center;
+}
+
+
+#mondayTop {
+    background-color: rgb(255, 166, 0);
+    border-color:  rgb(255, 166, 0);
+    border-radius: 50%;
+    display:none;
+    height:15vmin;
+    width:15vmin;
+    margin-left:-2vmin;
+    margin-bottom: 1vmin;
+    position: absolute;
+    align-self: center;
+    justify-content: center;
+}
+
+#tuesdayBottom {
+    display:none;
+    height:50vmin;
+    width:50vmin;
+    margin-top: 20vmin;
+    margin-left: -18vmin;
+    position: absolute;
+    align-self: center;
+}
+
+
+#tuesdayTop {
+    background-color: rgb(255, 166, 0);
+    border-color:  rgb(255, 166, 0);
+    border-radius: 50%;
+    display:none;
+    height:15vmin;
+    width:15vmin;
+    position: absolute;
+    left: 18vmin;
+    align-self: center;
+    justify-content: center;
+}
+
+#tuesdayTop img {
+    height: 20vmin;
+    width: 20vmin;
+    align-self: center;
+    margin-bottom: 2vmin;
+}
+
+#wednesdayBottom {
+    display:none;
+    height:20vmin;
+    width:20vmin;
+    position: absolute;
+    align-self: center;
+    margin-left: 37vmin;
+}
+
+#wednesdayTop {
+    background-color: rgb(255, 166, 0);
+    border-color:  rgb(255, 166, 0);
+    border-radius: 50%;
+    display:none;
+    height:15vmin;
+    width:15vmin;
+    position: absolute;
+    left: 39vmin;
+    align-self: center;
+}
+
+#wednesdayTop img {
+    height: 20vmin;
+    width: 20vmin;
+    align-self: center;
+    margin-bottom: 2vmin;
+}
+
+#thursdayBottom {
+    display:none;
+    height:60vmin;
+    width:60vmin;
+    position: absolute;
+    margin-top: 30vmin;
+    left:65vmin;
+    align-self: center;
+}
+
+#thursdayTop {
+    background-color: rgb(255, 166, 0);
+    border-color:  rgb(255, 166, 0);
+    border-radius: 50%;
+    display:none;
+    height:15vmin;
+    width:15vmin;
+    position: absolute;
+    left: 63vmin;
+    align-self: center;
+}
