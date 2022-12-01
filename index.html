@@ -2,14 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <title>MaEd</title>
     <title>The point behind infinity</title>
     <link rel="stylesheet" href="index.css" />
 </head>
+
+
 <body>
-    <h1 id="Startlayer">Start</h1>
-    <img scr="/home/eduard/Pictures/background.jpg" id="Eduard_Character"/>
-    <div id="Marian_Character">BILD VON Marian</div>
+
+    <div id="teamMaedLogo"><img class="logoSize" src="Pictures/teamMaedLogo.svg"></div>
+
+    <div id="eduardStats" class="hide"><a class="eduardBanner" href="https://www.codewars.com/users/Silent%20Trail/badges/large"></a><img src="Pictures/eduardStats.svg"></div>
+    <div id="marianStats" class="hide"><img src="Pictures/marianStats.svg"></div>
+    <div id="teamStats" class="hide"><img src="Pictures/teamStats.svg"></div>
+
+
+    <div class="characterBox"> 
+        <div id="marianCharacter">
+            <img src="Pictures/marian_outline.svg" class="marianOutline">
+            <img src="Pictures/marian_farbe.svg" class="marianFarbe">
+        </div>
+        <div id="eduardCharacter">
+            <img src="Pictures/eduard_outline.svg" class="eduardOutline">
+            <img src="Pictures/eduard_farbe.svg" class="eduardFarbe">
+        </div>
+    </div>
+
+    <div id="showTeamStats"><img src="Pictures/teamstats_button.svg"> </div>
+    <a id="goToTimeline" href="timeline.html"><img src="Pictures/timeline_button.svg"></a>
+
 </body>
 </html>
