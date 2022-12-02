@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     overflow:auto;
-}
+
 .logoSize {
     height:13vmin;
 }
@@ -376,4 +376,3 @@ body {
 .variantenButton {
     height:2vmin;
     width:2vmin;
-}
