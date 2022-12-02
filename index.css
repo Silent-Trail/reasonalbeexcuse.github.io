@@ -175,9 +175,9 @@ body {
 }
 
 #teamStats {
-    height: 5vmin;
-    width: 20vmin;
-    margin-top: 60vmin;
+    height: 20vmin;
+    width: 40vmin;
+    margin-top: 70vmin;
     align-self: center;
     position: absolute;
 }
